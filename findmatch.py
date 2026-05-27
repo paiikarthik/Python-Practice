@@ -13,4 +13,4 @@ class Solution:
 
 s = "102121"
 c=Solution()
-print(c.smallestSubstring(s))
+print(c.smallestSubstring(s)) 

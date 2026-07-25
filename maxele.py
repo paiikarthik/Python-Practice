@@ -21,5 +21,23 @@ s=767
 c=Solution()
 print(c.maxProduct(s))
            
+
+#version 2 for duplicate numbers
+
+class Solution(object):
+    def maxProduct(self, n):
+       new=[]
+       while n > 0:
+         new.append(n % 10)
+         n //= 10
+       new.sort()
+  
+       return new[-1]*new[-2]
+
+s=767
+c=Solution()
+print(c.maxProduct(s))
+           
+        
         
         

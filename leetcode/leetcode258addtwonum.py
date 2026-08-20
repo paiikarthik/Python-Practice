@@ -9,7 +9,7 @@ class Solution(object):
         while sum!=0:
             final+=sum%10
             sum=sum//10
-
+ 
         return final
 
          

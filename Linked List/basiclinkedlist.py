@@ -16,3 +16,11 @@ class LinkedList:
             current = current.next
 
         print("None")
+
+ll = LinkedList()
+
+ll.head = Node(10)
+ll.head.next = Node(20)
+ll.head.next.next = Node(30)
+
+ll.display()
